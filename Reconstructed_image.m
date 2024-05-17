@@ -3,7 +3,7 @@ clear all
 close all
 
 % Load the image
-original_image = imread('path_image');
+original_image = imread('image_path');
 
 
 % Display the original image
