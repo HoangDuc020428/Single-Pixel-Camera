@@ -3,7 +3,7 @@ clear all
 close all
 
 % Load the image
-original_image = imread('D:\Ki1_2023-2024\DoAn\Code\MatlabCode\test_image.jpg');
+original_image = imread('path_image');
 
 
 % Display the original image
@@ -34,7 +34,7 @@ for i = 1:num_matrices
     bernoulli_matrices(:,i) = reshape(randi([0,1], matrix_size, matrix_size), [], 1);
 end
 
-noisy_gray_image_reshaped = noisy_gray_image(:); % Chuy?n noisy_gray_image th‡nh vector c?t
+noisy_gray_image_reshaped = noisy_gray_image(:); % Chuy?n noisy_gray_image th√†nh vector c?t
 
 Output = zeros(num_matrices, 1);
 for i = 1:num_matrices
