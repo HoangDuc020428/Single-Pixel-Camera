@@ -1,4 +1,4 @@
-% Kích th???c cu?a ma trâ?n
+% size of the matrix
 rows = 10;
 cols = 10; 
  
