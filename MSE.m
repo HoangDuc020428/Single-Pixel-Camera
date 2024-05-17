@@ -3,7 +3,7 @@ clear all
 close all
 
 % Load the image
-original_image = imread('image path');
+original_image = imread('image_path');
 
 % Convert RGB image to grayscale
 if size(original_image, 3) == 3
