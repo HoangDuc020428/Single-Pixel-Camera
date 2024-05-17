@@ -3,7 +3,7 @@ clear all
 close all
 
 % Load the image
-original_image = imread('D:\Ki1_2023-2024\DoAn\Code\MatlabCode\test_image.jpg');
+original_image = imread('image path');
 
 % Convert RGB image to grayscale
 if size(original_image, 3) == 3
